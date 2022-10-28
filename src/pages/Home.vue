@@ -6,9 +6,10 @@
           <h2
             class="md:text-4xl text-2xl font-semibold leading-tight tracking-wider text-gray-900"
           >
-          Узнай, как легко зарабатывать на крипте и создать пассивный доход
-          <br />
-          вместе с TradeBot
+            Телеграм канал о способах заработка на криптовалюте и создании
+            пассивного дохода
+            <br />
+            с помощью TradeBot
           </h2>
           <BaseButton class="my-6 px-12 flex items-center">
             Перейти
@@ -20,7 +21,9 @@
       </div>
 
       <div class="mt-8 py-6 w-full rounded-lg shadow-lg">
-        <div class="flex items-center justify-around md:divide-x-2 md:flex-row flex-col">
+        <div
+          class="flex items-center justify-around md:divide-x-2 md:flex-row flex-col"
+        >
           <HeroCard
             class="w-1/3 h-24 text-center mb-6"
             v-for="(item, idx) in heroItems"
@@ -76,28 +79,30 @@
     </BaseSection> -->
 
     <div>
-    <BaseSection class="my-12 w-full text-center bg-white rounded-xl shadow-2xl py-5">
+      <BaseSection
+        class="my-12 w-full text-center bg-white rounded-xl shadow-2xl py-5"
+      >
         <SeactionHeader
           class="py-4 items-center m-auto"
           title="Подключим бота бесплатно на пробный период!"
         />
-        По нашей статистике - это около 1 недели бесплатной торговли.
-        За это время вы сможете ознакомиться с ботом, пообщаться в чате инвесторов,
-        а также самостоятельно сверить все результаты на практике
-        <br>
-    <BaseButton class="mt-5">Узнать больше</BaseButton>
-    </BaseSection>
+        <br />
+        <BaseButton class="mt-5">Узнать больше</BaseButton>
+      </BaseSection>
     </div>
 
     <div class="bg w-full my-40 py-16 bg-no-repeat bg-cover">
-      <BaseSection class="my-12 w-full text-center bg-white rounded-xl shadow-2xl py-5">
-      <div class="text-center flex items-center justify-center">
-        <SeactionHeader title="Команда TradeBot">
-          <template #subtitle>
-            Разработчики - профессиональная команда трейдеров, 
-            торгующая не только на криптовалюте, но и на <strong>CME</strong>,<strong>МБ</strong>.
-          </template>
-        </SeactionHeader>
+      <BaseSection
+        class="my-12 w-full text-center bg-white rounded-xl shadow-2xl py-5"
+      >
+        <div class="text-center flex items-center justify-center">
+          <SeactionHeader title="Команда TradeBot">
+            <template #subtitle>
+              Разработчики - профессиональная команда трейдеров, торгующая не
+              только на криптовалюте, но и на
+              <strong>CME</strong>,<strong>МБ</strong>.
+            </template>
+          </SeactionHeader>
         </div>
       </BaseSection>
     </div>
@@ -124,23 +129,23 @@
     <BaseSection
       class="relative bg-white mt-16 px-16 py-12 flex items-center text-center md:flex-row flex-col justify-between w-full shadow-lg rounded-lg z-40"
     >
-      <SeactionHeader title="Подключи бота сейчас совершенно бесплатно"/>
+      <SeactionHeader
+        title="Узнай, как работает современный бот для трейдинга на криптовалюте и как на этом можно зарабатывать"
+      />
       <BaseButton>Перейти</BaseButton>
     </BaseSection>
 
     <footer class="relative -mt-24 pt-40 pb-20 bg-gray-100 w-xl z-10">
-      <div class="container px-4 mx-auto flex">
+      <div class="container px-4 mx-auto flex items-center justify-center">
         <div class="max-w-sm flex-shrink-0">
           <div>
-            <p class="mt-4 text-sm text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt pariatur voluptatem voluptatibus 
-              laudantium molestias dignissimos ipsa quisquam!
-            </p>
+            <p class="mt-4 text-sm text-gray-600"></p>
           </div>
 
-          <a href="" class=""><img alt=""></a>
+          <a href="" class=""><img alt=""/></a>
           <p class="mt-4 text-xs text-gray-600 leading-none tracking-wide">
-            <span>©2022</span><span>Tradebot</span>
+            <span>©2022-</span>
+            <span>Tradebot</span>
           </p>
         </div>
 
@@ -149,7 +154,6 @@
             <ListItem><BaseLink to="#"></BaseLink></ListItem>
             <ListItem><BaseLink to="#"></BaseLink></ListItem>
           </List>
-          <img src="../assets/images/logo.svg" alt="logo" class="h-24">
         </div>
       </div>
     </footer>
