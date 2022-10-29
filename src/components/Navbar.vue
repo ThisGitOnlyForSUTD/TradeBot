@@ -5,8 +5,15 @@
     </div>
 
     <List class="flex items-center space-x-8">
-      <ListItem><BaseLink to="#">Преимущества</BaseLink></ListItem>
-      <ListItem><BaseLink class="w-8" to="https://t.me/durov_russia"><img src="../assets/images/telegram.svg" alt=""></BaseLink></ListItem>
+      <ListItem
+        ><BaseLink to="https://teleg.run/joinchat/FrWmvk78bFRiMTRk"
+          >Преимущества</BaseLink
+        ></ListItem
+      >
+      <ListItem
+        ><BaseLink class="w-8" to="https://teleg.run/joinchat/FrWmvk78bFRiMTRk"
+          ><img src="../assets/images/telegram.svg" alt=""/></BaseLink
+      ></ListItem>
     </List>
   </nav>
 </template>
@@ -26,11 +33,9 @@ export default {
   },
 
   data() {
-    return {
-    }
+    return {}
   }
 }
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

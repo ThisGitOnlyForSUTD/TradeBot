@@ -3,7 +3,9 @@
     class="text-sm leading-normal tracking-wide font-semibold transition duration-500 ease-in-out"
     :class="classes"
   >
-    <a href="https://t.me/durov_russia"><slot>Submit</slot></a>
+    <a href="https://teleg.run/joinchat/FrWmvk78bFRiMTRk"
+      ><slot>Submit</slot></a
+    >
   </button>
 </template>
 

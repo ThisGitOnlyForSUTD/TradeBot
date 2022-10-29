@@ -15,9 +15,9 @@
             Перейти
           </BaseButton>
         </div>
-        <div class="md:w-1/2">
+        <a class="md:w-1/2">
           <img src="../assets/images/illustration_01.jpg" alt="Hero Image" />
-        </div>
+        </a>
       </div>
 
       <div class="mt-8 py-6 w-full rounded-lg shadow-lg">
